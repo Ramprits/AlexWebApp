@@ -45,7 +45,7 @@
       "version": "1.1.0-preview4-final",
       "type": "build"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.1",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.1.0",
     "AutoMapper": "5.1.1"
   },
 
