@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using AlexWebApp.Models;
-using AlexWebApp.Models.ClientViewModels;
 
 namespace AlexWebApp.Data
 {
@@ -16,6 +15,9 @@ namespace AlexWebApp.Data
           {
           }
           public DbSet<Client> clients { get; set; }
+          public DbSet<EmailPromo> emailPromos { get; set; }
+          public DbSet<Order> orders { get; set; }
+          public DbSet<Address> addresses { get; set; }
           protected override void OnModelCreating(ModelBuilder builder)
           {
                base.OnModelCreating(builder);
